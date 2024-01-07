@@ -1,14 +1,17 @@
 * {
+    /*this sets the page to have neutral padding and margin except the ones assigned to it's class and the box size to boarder-box*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* this sets the body tag background to be white*/
     background-color: #d9dcd6;
 }
 
 .header {
+    /* it sets all header items to have below discription which is self explanatory below*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -17,15 +20,18 @@ body {
 }
 
 .header h1 {
+    /* this is to set all header h1 element horizontally and next to each other and also how big/small the font should be */
 display: inline-block;
  font-size: 48px;
 }
 
 .header h1 .seo {
+    /* this is to specify the SEO color of the Header H1 should be white*/
     color: #d9dcd6;
 }
 
 .header section {
+    /* this gives more instruction on the section header which is the listed items on the header*/
     padding-top: 15px;
     margin-bottom: 20px;
     float:right;
@@ -43,21 +49,25 @@ display: inline-block;
 }
 
 .header section ul li {
+    /*this is to set all listed item on the header horizontally and margin on the left to the below pixels */
     display: inline-block;
     margin-left: 25px;
     
 }
 
 a {
+    /* this is to set the color of all a href attribute white*/
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* this is to set all p element front size to the below Pixels*/
     font-size: 16px;
 }
 
 .hero {
+    /* this is to set the below image url to have below attributes which is self explanatory*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -67,6 +77,7 @@ p {
 }
 
 .float-left {
+    /* I placed all image left,so all image should float to the left and have a margin to the right of 25px*/
     float: left;
     margin-right: 25px;
 }
@@ -74,12 +85,14 @@ p {
 
 
 .content {
+    /*this give more instructions on how the content section class should be, the width, display and the margin to the left of the content*/
     width:75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /*this gives more design to the benefit class, the font-family,bck-color and as listed below*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,6 +104,7 @@ p {
 }
 
 .benefit-lead {
+    /* this sets all margin and color on the benefit class thesame pixel and color*/
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -106,6 +120,7 @@ p {
 }
 
 .benefit-lead h3 {
+    /*this sets all h3 element on benefit class to have thesame margin px and all text align to the center*/
     margin-bottom: 10px;
     text-align: center;
 }
@@ -121,6 +136,7 @@ p {
 }
 
 .benefit-lead img {
+    /*this sets all img tag on the benefit class to have thesame display,margin and max-width thesame */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -138,7 +154,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+#search-engine-optimization {
+    /*this sets all items on the content to have the-same attribute as listed below */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,7 +164,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -156,7 +173,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -166,6 +183,7 @@ p {
 }
 
 .search-engine-optimization img {
+    /*this sets all img on the content to have the same max weight*/
     max-height: 200px;
 }
 
@@ -178,6 +196,7 @@ p {
 }
 
 .search-engine-optimization h2 {
+    /*this sets all h2 element on the content to have thesame margin and font-size*/
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -193,6 +212,7 @@ p {
 }
 
 .footer {
+    /*this sets the footer to have below attributes as listed */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -200,5 +220,6 @@ p {
 }
 
 .footer h3 {
+    /*this sets all h3 element on the footer to have below pixels*/
     font-size: 20px;
 }
