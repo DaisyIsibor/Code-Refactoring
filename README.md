@@ -1,5 +1,5 @@
 # Demo-folder webpage on SEO 
-## https://daisyisibor.github.io/assignment-1/
+## https://daisyisibor.github.io/Code-Refactoring/
 ## webpage that has brief descriptions ways to help with SEO as well as best SEO practice 
 
 ## Task
